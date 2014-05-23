@@ -43,7 +43,7 @@ describe('Inline task processing', function () {
                     eggs: 'abc'
                 }
             }
-        }
+        };
 
         var task2 = {
             copy: {

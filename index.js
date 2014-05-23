@@ -1,6 +1,11 @@
 var _ = require('lodash');
 var util = require('./lib/util');
 
+/**
+ * Wrapper for using utils is a grunt file or plugin
+ * @param grunt
+ * @returns {{inline: inline}}
+ */
 module.exports = function(grunt) {
 
     if (!grunt) {
